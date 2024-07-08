@@ -17,7 +17,7 @@ from orcasound_noise.pipeline.acoustic_util import plot_spec, plot_bb
 if __name__ == '__main__':
     pipeline = NoiseAnalysisPipeline(Hydrophone.PORT_TOWNSEND,
                                      delta_f=10, bands=None,
-                                     delta_t=3600, mode='safe')
+                                     delta_t=60, mode='safe')
 
 
 
